@@ -39,7 +39,7 @@
 ### 从 GitHub 安装（推荐）
 
 ```sh
-dsh plugin --profile web add github:<你的用户名>/dsh-billing
+dsh plugin --profile web add github:LW-N7/dsh-billing
 ```
 
 重启 `dsh web` 并刷新页面（F5）即生效。API Key 在 Web 的**模型设置页**保存（或设置环境变量 `DEEPSEEK_API_KEY`）。
@@ -97,7 +97,7 @@ dsh plugin --profile web remove dsh-billing
 ## 开发
 
 ```sh
-git clone https://github.com/<你的用户名>/dsh-billing
+git clone https://github.com/LW-N7/dsh-billing
 cd dsh-billing
 npm test          # node --test tests/，覆盖定价引擎/账本幂等/重估/余额解析
 ```
