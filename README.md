@@ -6,6 +6,12 @@
 
 纯 JavaScript 双面插件（host + browser），**零构建、零运行时依赖**。
 
+## 截图
+
+会话头部双胶囊（余额 + 本会话费用，点击即刷新，悬停看明细）：
+
+![dsh-billing 会话头双胶囊](docs/screenshots/dsh-billing-demo.png)
+
 ## 功能
 
 | 入口 | 说明 |
