@@ -1,0 +1,52 @@
+{
+  "name": "dsh-billing",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "DeepSeek Harness 计费插件：账户余额 + 会话费用 + 持久化账本（命令/工具 + Web UI 双胶囊）",
+  "keywords": [
+    "deepseek",
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "billing",
+    "balance",
+    "cost"
+  ],
+  "main": "host.js",
+  "exports": {
+    ".": "./host.js",
+    "./host.js": "./host.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "host.js",
+    "client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test tests/billing.test.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": false
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_NAME/dsh-billing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_NAME/dsh-billing/issues"
+  },
+  "homepage": "https://github.com/YOUR_NAME/dsh-billing",
+  "author": "Your Name",
+  "license": "MIT"
+}

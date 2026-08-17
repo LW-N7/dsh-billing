@@ -1,0 +1,8 @@
+# dsh-billing 本地计费插件 —— 自激活（安装后无需手改 profile 配置）。
+# 定价等全部配置可选，默认值见 host.js 顶部（含 2026-08-17 起峰谷价自动切换）。
+- insert:
+    - id: dsh-billing
+      name: 'dsh-billing'
+      config:
+        apiKeyEnv: DEEPSEEK_API_KEY
+        baseURL: !!js process.env.DEEPSEEK_BASE_URL ?? 'https://api.deepseek.com'
