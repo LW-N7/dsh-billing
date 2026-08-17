@@ -12,6 +12,10 @@
 
 ![dsh-billing 会话头双胶囊](docs/screenshots/dsh-billing-demo.png)
 
+悬停明细（余额胶囊的币种/充值/赠金拆分，费用胶囊的 token 与账本汇总）：
+
+![悬停明细 1](docs/screenshots/dsh-billing-demo1.png) · ![悬停明细 2](docs/screenshots/dsh-billing-demo2.png)
+
 ## 功能
 
 | 入口 | 说明 |
